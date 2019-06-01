@@ -12,7 +12,7 @@ class _DanceScreenState extends State<DanceScreen> {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.red[900],
-        title: Text("Traditional Dances"),
+        title: Text("Traditional Dances",style: TextStyle(color: Colors.white)),
       ),
       drawer: Drawer(),
       body: ListView(

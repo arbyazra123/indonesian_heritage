@@ -11,6 +11,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+
         elevation: 0,
         backgroundColor: Colors.red[900],
         // actions: <Widget>[
@@ -19,9 +20,11 @@ class _HomeScreenState extends State<HomeScreen> {
         //     child: Icon(Icons.se),
         //   )
         // ],
-        title: Text("Indonesian Heritage"),
+        title: Text("Indonesian Heritage",style: TextStyle(color: Colors.white),),
       ),
-      drawer: Drawer(),
+      drawer: Drawer(
+        
+      ),
       body: Stack(
         children: <Widget>[
           Container(
@@ -50,7 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     height: 10.0,
                   ),
                   Divider(
-                    color: Colors.grey,
+                    color: Colors.white,
                   ),
                   SizedBox(
                     height: 10.0,
@@ -113,7 +116,340 @@ class _HomeScreenState extends State<HomeScreen> {
                                 child: Image.asset("logo/tempat/jakarta.png")),
                           ],
                         ),
-                      )
+                      ),
+                      SizedBox(height: 15,),
+                      InkWell(
+                        onTap: (){
+                          Navigator.push(context,MaterialPageRoute(
+                            builder: (BuildContext) => SubMainScreen()
+                          ));
+                        },
+                        child: Stack(
+                          children: <Widget>[
+                            Padding(
+                              padding: const EdgeInsets.only(left: 20.0),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(50.0),
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [Colors.grey, Colors.white])),
+                                  height: 78,
+                                  width: 300,
+                                  child: Center(
+                                    child: Text(
+                                      "BANDUNG",
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.grey[700],
+                                          fontSize: 20.0),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                            Container(
+                                width: 80,
+                                child: Image.asset("logo/tempat/bandung.png")),
+                          ],
+                        ),
+                      ),
+                      SizedBox(height: 15,),
+                      InkWell(
+                        onTap: (){
+                          Navigator.push(context,MaterialPageRoute(
+                            builder: (BuildContext) => SubMainScreen()
+                          ));
+                        },
+                        child: Stack(
+                          children: <Widget>[
+                            Padding(
+                              padding: const EdgeInsets.only(left: 20.0),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(50.0),
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [Colors.grey, Colors.white])),
+                                  height: 78,
+                                  width: 300,
+                                  child: Center(
+                                    child: Text(
+                                      "SEMARANG",
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.grey[700],
+                                          fontSize: 20.0),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                            Container(
+                                width: 80,
+                                child: Image.asset("logo/tempat/semarang.png")),
+                          ],
+                        ),
+                      ),
+                      SizedBox(height: 15,),
+                      InkWell(
+                        onTap: (){
+                          Navigator.push(context,MaterialPageRoute(
+                            builder: (BuildContext) => SubMainScreen()
+                          ));
+                        },
+                        child: Stack(
+                          children: <Widget>[
+                            Padding(
+                              padding: const EdgeInsets.only(left: 20.0),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(50.0),
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [Colors.grey, Colors.white])),
+                                  height: 78,
+                                  width: 300,
+                                  child: Center(
+                                    child: Text(
+                                      "BATAM",
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.grey[700],
+                                          fontSize: 20.0),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                            Container(
+                                width: 80,
+                                child: Image.asset("logo/tempat/batam.png")),
+                          ],
+                        ),
+                      ),
+                      SizedBox(height: 15,),
+                      InkWell(
+                        onTap: (){
+                          Navigator.push(context,MaterialPageRoute(
+                            builder: (BuildContext) => SubMainScreen()
+                          ));
+                        },
+                        child: Stack(
+                          children: <Widget>[
+                            Padding(
+                              padding: const EdgeInsets.only(left: 20.0),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(50.0),
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [Colors.grey, Colors.white])),
+                                  height: 78,
+                                  width: 300,
+                                  child: Center(
+                                    child: Text(
+                                      "BALI",
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.grey[700],
+                                          fontSize: 20.0),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                            Container(
+                                width: 80,
+                                child: Image.asset("logo/tempat/asd.png")),
+                          ],
+                        ),
+                      ),
+                      SizedBox(height: 15,),
+                      InkWell(
+                        onTap: (){
+                          Navigator.push(context,MaterialPageRoute(
+                            builder: (BuildContext) => SubMainScreen()
+                          ));
+                        },
+                        child: Stack(
+                          children: <Widget>[
+                            Padding(
+                              padding: const EdgeInsets.only(left: 20.0),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(50.0),
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [Colors.grey, Colors.white])),
+                                  height: 78,
+                                  width: 300,
+                                  child: Center(
+                                    child: Text(
+                                      "MAKASSAR",
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.grey[700],
+                                          fontSize: 20.0),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                            Container(
+                                width: 80,
+                                child: Image.asset("logo/tempat/makassar.png")),
+                          ],
+                        ),
+                      ),
+                      SizedBox(height: 15,),
+                      InkWell(
+                        onTap: (){
+                          Navigator.push(context,MaterialPageRoute(
+                            builder: (BuildContext) => SubMainScreen()
+                          ));
+                        },
+                        child: Stack(
+                          children: <Widget>[
+                            Padding(
+                              padding: const EdgeInsets.only(left: 20.0),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(50.0),
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [Colors.grey, Colors.white])),
+                                  height: 78,
+                                  width: 300,
+                                  child: Center(
+                                    child: Text(
+                                      "MALANG",
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.grey[700],
+                                          fontSize: 20.0),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                            Container(
+                                width: 80,
+                                child: Image.asset("logo/tempat/malang.png")),
+                          ],
+                        ),
+                      ),
+                      SizedBox(height: 15,),
+                      InkWell(
+                        onTap: (){
+                          Navigator.push(context,MaterialPageRoute(
+                            builder: (BuildContext) => SubMainScreen()
+                          ));
+                        },
+                        child: Stack(
+                          children: <Widget>[
+                            Padding(
+                              padding: const EdgeInsets.only(left: 20.0),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(50.0),
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [Colors.grey, Colors.white])),
+                                  height: 78,
+                                  width: 300,
+                                  child: Center(
+                                    child: Text(
+                                      "MEDAN",
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.grey[700],
+                                          fontSize: 20.0),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                            Container(
+                                width: 80,
+                                child: Image.asset("logo/tempat/medan.png")),
+                          ],
+                        ),
+                      ),
+                      SizedBox(height: 15,),
+                      InkWell(
+                        onTap: (){
+                          Navigator.push(context,MaterialPageRoute(
+                            builder: (BuildContext) => SubMainScreen()
+                          ));
+                        },
+                        child: Stack(
+                          children: <Widget>[
+                            Padding(
+                              padding: const EdgeInsets.only(left: 20.0),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(50.0),
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [Colors.grey, Colors.white])),
+                                  height: 78,
+                                  width: 300,
+                                  child: Center(
+                                    child: Text(
+                                      "SURABAYA",
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.grey[700],
+                                          fontSize: 20.0),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                            Container(
+                                width: 80,
+                                child: Image.asset("logo/tempat/surabaya.png")),
+                          ],
+                        ),
+                      ),
+                      SizedBox(height: 15,),
+                      InkWell(
+                        onTap: (){
+                          Navigator.push(context,MaterialPageRoute(
+                            builder: (BuildContext) => SubMainScreen()
+                          ));
+                        },
+                        child: Stack(
+                          children: <Widget>[
+                            Padding(
+                              padding: const EdgeInsets.only(left: 20.0),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(50.0),
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [Colors.grey, Colors.white])),
+                                  height: 78,
+                                  width: 300,
+                                  child: Center(
+                                    child: Text(
+                                      "YOGYAKARTA",
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.grey[700],
+                                          fontSize: 20.0),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                            Container(
+                                width: 80,
+                                child: Image.asset("logo/tempat/yogya.png")),
+                          ],
+                        ),
+                      ),
                     ],
                   ),
                 ),

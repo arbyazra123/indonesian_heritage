@@ -44,6 +44,15 @@ flutter:
   assets:
    - logo/logo.png
    - logo/tempat/jakarta.png
+   - logo/tempat/asd.png
+   - logo/tempat/bandung.png
+   - logo/tempat/batam.png
+   - logo/tempat/makassar.png
+   - logo/tempat/malang.png
+   - logo/tempat/medan.png
+   - logo/tempat/semarang.png
+   - logo/tempat/surabaya.png
+   - logo/tempat/yogya.png
    - logo/logo_2.png
    - logo/google_logo.png
    - logo/others/culture.png
@@ -52,6 +61,8 @@ flutter:
    - logo/cultures/culinary.jpg
    - logo/cultures/clothes_thumbnail.jpg
    - logo/tari/jakarta/tari_topeng_betawi.jpg
+   - logo/tari/jakarta/lenggang_nyai.jpg
+   - logo/tari/jakarta/yapong.jpg
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

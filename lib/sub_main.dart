@@ -19,7 +19,7 @@ class _SubMainScreenState extends State<SubMainScreen> {
         //     child: Icon(Icons.se),
         //   )
         // ],
-        title: Text("Indonesian Heritage"),
+        title: Text("Indonesian Heritage",style: TextStyle(color: Colors.white)),
       ),
       drawer: Drawer(),
       body: Column(

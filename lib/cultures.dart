@@ -13,7 +13,7 @@ class _CultureScreenState extends State<CultureScreen> {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.red[900],
-        title: Text("Indonesian Heritage"),
+        title: Text("Indonesian Heritage",style: TextStyle(color: Colors.white)),
       ),
       drawer: Drawer(),
       body: Column(
